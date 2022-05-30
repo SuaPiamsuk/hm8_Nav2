@@ -24,7 +24,7 @@ find_package(xacro REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 install(
-  DIRECTORY src launch rviz config urdf robots world
+  DIRECTORY launch rviz config urdf robots world
   DESTINATION share/${PROJECT_NAME}
 )
 
